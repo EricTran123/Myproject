@@ -19,7 +19,6 @@ public class BrowserCommands{
         driver.get("http://www.seleniumframework.com");
         driver.manage().window().maximize();
     }
-    ////
     @And("^I navigate to ABOUT link$")
     public void i_navigate_to_ABOUT_link() throws Throwable {
         WebDriverWait wait = new WebDriverWait(driver,10);
